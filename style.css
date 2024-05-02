@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+}
+
+
+
+header {
+    margin-top: 4vw;
+    background-color: azure;
+}
+
+#header-part {
+    background-color: #2E8B57;
+    opacity: 0.8;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 3vw;
+    box-shadow: 2px 2px #2E8B57;
+}
+
+#header-part li {
+   list-style-type: none;
+   padding: 1vw;
+}
+
+#header-part li h4 {
+    position: relative;
+    right: 3vw;
+}
+
+#section-one {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+#div-left {
+    position: relative;
+    right: 5.5vw;
+}
+
+#div-right {
+    position: relative;
+}
+
+#div-left a, #div-right a {
+    text-decoration: none;
+}
+
+#seats-para{
+    padding-top: 1vw;
+    color: black;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9vw;
+}
+
+ input, textarea, select{
+    margin-top: 2vw;
+}
+
+#firstName, #lastName, #address, #comp, #city, #state, #country, #email, #phonenumber {
+    width: 12vw;
+    margin-left: 8vw;
+}
+
+#comp {
+    margin-left: 4vw;
+}
+
+#address {
+    margin-left: 9.15vw;
+}
+
+#city {
+    margin-left: 11.3vw;
+}
+
+#state {
+    width: 12.3vw;
+    position: relative;
+    bottom: 3vw;
+    left: 5.3vw;
+}
+
+#country {
+    width: 12.8vw;
+    margin-left: 9vw;
+}
+
+#email {
+    margin-left: 10vw;
+}
+
+#header-part li select {
+   position: relative;
+   right: 4vw;
+   background-color: #2E8B57;
+   border-color: #2E8B57;
+   bottom: 2vw;
+}
+
+#phonenumber {
+   position: relative;
+   right: 2vw;
+}
+
+#div-right {
+    position: relative;
+    top: 2vw;
+}
+
+#div-right a {
+    color: black;
+    text-decoration: underline;
+}
+
+#meal-span {
+    position: relative;
+    bottom: 1vw;
+}
+
+#pay-mode {
+    display: flex;
+}
+ 
+#pay-detail {
+    position: relative;
+    top: 0.3vw;
+}
+
+#pay-mod-1 {
+    position: relative;
+    top: 1.7vw;
+}
+
+#meal, #pay-mod-2 {
+    width: 12vw;
+    position: relative;
+    left: 5vw;
+}
+
+#pay-mod-2 {
+    position: relative;
+    left: 5.5vw;
+}
+
+#dd {
+    width: 12vw;
+    position: relative;
+    left: 5vw;
+}
+
+#drawnBankName {
+    width: 12vw;
+    position: relative;
+    bottom: 3vw;
+    left: 12vw;
+}
+
+label[for="drawnBankName"] {
+    position: relative;
+    top: 2vw;
+}
+
+#payable {
+    width: 12vw;
+    position: relative;
+    left: 7.3vw;
+}
+
+#submit-Reset {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 3vw;
+    justify-content: center;
+    height: 1.8vw;
+    margin-bottom: 2vw;
+    opacity: 0.9;
+}
+
+button {
+    background-color: #2E8B57;
+    color: white;
+    border-color: #2E8B57;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+    font-family: fantasy;
+    opacity: 0.8;
+    width: 7vw;
+    height: 3vw;
+     border-radius: 5%;
+}
+
+#reset {
+    background-color: rgb(231, 115, 115);
+    border-color: rgb(231, 115, 115);
+}
+
+#html-checker-img, #css-checker-img {
+    width: 5vw;
+}

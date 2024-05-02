@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <header>
+          <ul id="header-part">
+            <li><h4>Work Registration</h4></li>
+            <li>
+                 <form>
+                    <select>
+                        <option value="">More Actions</option>
+                        <option value="">More Actions One</option>
+                        <option value="">More Actions Two</option>
+                        <option value="">More Actions Three</option>
+                    </select>
+                 </form>
+            </li>
+          </ul>
+      </header>
+
+      <section id="section-one">
+        <div id="div-left">
+        <a href="#"><p id="seats-para">Register now while seats are available!</p></a>
+            <label for="firstName">First Name*
+                <input type="text" id="firstName" name="firstName" required>
+            </label><br>
+
+            <label for="lastName">Last Name*
+                <input type="text" id="lastName" name="lastName" required>
+            </label><br>
+
+            <label for="comp">Company Institution*
+                <input type="text" id="comp" name="comp" required>
+            </label><br>
+
+            <label for="address">Address*
+                <textArea type="text" id="address" name="address" required></textArea>
+            </label><br>
+
+            <label for="city">City
+                <input type="text" id="city" name="city" required>
+            </label><br><br><br>
+
+            <label for="state">State/province/region*
+                <select id="state">
+                    <option>Select</option>
+                    <option>Iowa</option>
+                    <option>Georgia</option>
+                    <option>California</option>
+                    <option>Texas</option>
+                    <option>Nebraska</option>
+                    <option>Florida</option>
+                    <option>Washington</option>
+                    <option>Verginia</option>
+                </select>
+            </label><br>
+
+            <label for="country">Country*
+                <select id="country">
+                    <option>Select</option>
+                    <option>Fairfield</option>
+                    <option>Atlanta</option>
+                    <option>LA</option>
+                    <option>Dallas</option>
+                    <option>Lincon</option>
+                    <option>Miami</option>
+                    <option>Seattle</option>
+                    <option>DC</option>
+                </select>
+            </label><br>
+
+            <label for="email">Email*
+                <input type="email" id="email" name="email" required>
+            </label><br>
+            
+            <label for="phonenumber">Phone Number*
+                <input type="number" id="phonenumber" name="phonenumber" required>
+            </label><br>
+        </div>
+
+        <div id="div-right">
+            <p><a href="#">Lunch</a></p>
+            <div id="meal-span">
+            <span>Meal Reference</span>
+                <select id="meal">
+                    <option>Select</option>
+                    <option>Veggie</option>
+                    <option>Vegan</option>
+                    <option>Meat</option>
+                </select><br>
+                </div>
+
+            <p id="pay-detail"><a href="#">Payment Details</a></p>
+            <div id="pay-mode">
+           <div id="pay-mod-1">Payment Mode</div>
+               <div id="pay-mod-2"> 
+                <input type="checkbox">Cash <br>
+                <input type="checkbox">Cheque <br>
+                <input type="checkbox">Demand Draft <br>
+               </div>
+                </div>
+
+            <label for="dd">DD/Cheque No.
+                <input type="text" id="dd" name="DDChequeNum" required>
+            </label><br>
+
+            <label for="drawnBankName">Drawn on (Bank Name)
+                <input type="text" id="drawnBankName" name="drawnBankName">
+            </label><br>
+
+            <label for="payable">Payable at
+                <input type="text" id="payable" name="payableat">
+            </label><br>
+            </div>
+      </section>
+
+      <footer> 
+        <div id="submit-Reset">
+       <div> <button>Submit</button></div>
+       <div> <button id="reset">Reset</button> </div>
+        </div>
+        <a href="" target="_blank"><img id="html-checker-img" src="./HtmlChecker.png" alt="Html Checker image"></a>
+        
+        <a href="" target="_blank"><img id="css-checker-img" src="./CssChecker.png" alt="Html Checker image"></a>
+      </footer>
+
+</body>
+</html>
